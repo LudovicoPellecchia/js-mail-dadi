@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container pb-4">
         <h1 class="mb-4" id="title">Check Email</h1>
         <input type="text" class="form-control" id="email-input" placeholder="Inserisci E-mail" aria-label="email" aria-describedby="addon-wrapping">
         <button type="button" class="btn btn-primary mt-4 sign-in">Accedi</button>
         <div class="output"></div>
     </div>
 
+    <div class="container mt-4">
+        <h1  class="mb-4" > Dice Game</h1>
+        <div class="User mt-4 ">
+            <button type="button" class="btn btn-primary dice-btn">Tira il dado</button>
+            <span id="dice-result" class="ps-3"></span>
+        </div>
+        <div class="PC"> 
+        </div>
+ 
+    </div>
 
     <script src="javascript/javascript.js"></script>
+    <script src="javascript/jsdadi.js"></script>
 </body>
 </html>
